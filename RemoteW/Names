@@ -12,13 +12,13 @@ globalpowertune 3
 globalfan 100
 autoreboot 8
 
-loc [4fe55d] testBen
-loc [4fe545] rig_1
-loc [4fe58d] rig_2
-loc [4fe7d7] rig_3
-loc [501b0b] Rak1rig1
-loc [501cc3] Rak1rig2
-loc [50282e] Rak1rig3
-loc [86b4e3] RakMrig1
-loc [86b4e9] RakMrig2
-loc [86b539] RakMrig3
+loc 4fe55d testBen
+loc 4fe545 rig_1
+loc 4fe58d rig_2
+loc 4fe7d7 rig_3
+loc 501b0b Rak1rig1
+loc 501cc3 Rak1rig2
+loc 50282e Rak1rig3
+loc 86b4e3 RakMrig1
+loc 86b4e9 RakMrig2
+loc 86b539 RakMrig3
