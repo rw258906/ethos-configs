@@ -13,19 +13,26 @@ globalfan 100
 autoreboot 8
 
 loc 4fe55d testBen
-loc 4fe545 ProbRig
-loc 4fe565 Rak3top
-loc 4fe58d rig2
-loc 4fe7d7 rig3
+
+loc 86b539 test-m
+loc 86b4e3 RakMrig1
+loc 86b4f1 RakMrig2
+loc 86b4e1 RakMrig3
+#[New One] loc 86b RakMrig4
+loc 86b525 RakMrig5
+
 loc 501b0b Rak1rig1
 loc 501cc3 Rak1rig2
-loc 50282e Rak1rig3
-loc 86b4e3 RakMrig1
-loc 86b4e9 RakMrig2
-loc 86b525 RakMrig5
-loc 86b539 test
-loc 86be41 RakMrig3
+loc 4fe7d7 Rak1rig3
+
+loc 4fe545 rak2rig3
+loc 4fe58d rak2rig4
 loc 502848 rak2rig1
-loc 86b525 noName
+loc 50282e Rak2rig2
+
+loc 4fe565 Rak3top
+
+loc 86b4e9 mixrig8
+
 
 
