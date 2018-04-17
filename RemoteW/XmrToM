@@ -1,0 +1,46 @@
+stratumproxy enabled
+proxywallet 83SRaHqTFYT84Uazn8HCibMWeSNr4sjm5A5PC6iYoEPrM9aJsSSbFRzgV5gBuFUY3zc$
+proxypool1 xmr-us-east1.nanopool.org:14444
+proxypool2 xmr-us-west1.nanopool.org:14444
+flags --cl-global-work 8192 --farm-recheck 250
+
+globalminer claymore-xmr
+claymore-xmr=flags -pow7 1
+custompanel cavernCRYPTO
+
+maxgputemp 85
+#globalpowertune 3
+globalfan 100
+autoreboot 8
+
+#Rig Info and Pwr Tuning
+
+#107 - Test - 86b539 - 8GPUs - No backplates
+pwr 86b539 3 3 3 3 3 3 3 3
+
+#106 - RakMrig1 - 86b4e3 - 7/8 GPUs 
+pwr 86b4e3 1 3 3 3 1 3 3 3
+
+#109 - RakMrig2 - 86b4f1 - 7/8 GPUs  
+pwr 86b4f1 0 2 1 2 0 3 3 3
+
+#110 - RakMrig3 - 86b4e1 - 8/8 GPUs
+pwr 86b4e1 1 3 3 3 1 3 3 3
+
+#120 - RakMrig4 86b498 - x/8 GPUs
+pwr 86b498 1 2 2 2 3 3 3 3
+
+#122 - RakMrig5 - 86b525 - 8/8 GPUs 
+pwr 86b525 1 3 3 1 3 3 3 3
+
+#116 - RakMrig8 - 86b4e9 - 8/8 GPUs
+pwr 86b4e9 1 3 3 2 2 3 3 3
+
+loc 86b539 test-m
+loc 86b4e3 RakMrig1
+loc 86b4f1 RakMrig2
+loc 86b4e1 RakMrig3
+loc 86b498 RakMrig4
+loc 86b525 RakMrig5
+
+loc 86b4e9 mixrig8
