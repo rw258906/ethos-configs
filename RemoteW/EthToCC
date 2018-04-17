@@ -1,0 +1,43 @@
+stratumproxy enabled
+proxywallet 0x0c1dcf6ba81ed7e14ef58d497594e08438a2f6f4
+proxypool1 us1.ethpool.org:3333
+proxypool2 us2.ethpool.org:3333
+flags --cl-global-work 8192 --farm-recheck 250
+
+globalminer claymore
+custompanel cavernCRYPTO
+
+maxgputemp 85
+globalpowertune 3
+globalfan 100
+autoreboot 8
+
+loc 4fe55d testBen
+
+loc 86b539 test-m
+loc 86b4e3 RakMrig1
+loc 86b4f1 RakMrig2
+loc 86b4e1 RakMrig3
+loc 86b498 RakMrig4
+loc 86b525 RakMrig5
+
+loc 501b0b Rak1rig1
+loc 501cc3 Rak1rig2
+loc 4fe7d7 Rak1rig3
+
+loc 4fe545 rak2rig3
+loc 4fe58d rak2rig4
+loc 502848 rak2rig1
+loc 50282e Rak2rig2
+
+loc 4fe565 Rak3top
+
+loc 86b4e9 mixrig8
+
+
+
+##cor 501bob
+##mem 501bob
+##fan 501bob
+##pwr 501bob
+##vlt 501bob
