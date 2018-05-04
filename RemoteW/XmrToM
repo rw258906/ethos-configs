@@ -35,7 +35,7 @@ pwr 86b498 1 2 2 2 3 3 3 3
 pwr 86b525 1 3 3 1 3 3 3 3
 
 #116 - BackRack - 86b4e9 - 8/8 GPUs
-pwr 86b4e9 1 3 3 2 2 3 3 3
+pwr 86b4e9 1 3 3 2 1 3 3 3
 
 loc 86b539 test-m
 loc 86b4e3 RakMrig1
