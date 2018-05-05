@@ -25,43 +25,43 @@ autoreboot 8
 
 #104 - 4fe55d - testBen - 13GPUs (all good; Needs BIOS) 
 loc 4fe55d testBen
-reb 4fe55d 1
+#reb 4fe55d 1
 
 #105 - 501b0b - Rak1rig1 - 10 GPUs (3 down; Needs BIOS)
 loc 501b0b Rak1rig1
-reb 501b0b 1
+#reb 501b0b 1
 
 #108 - 4fe7d7 - rak1rig3 - 13 GPUs  (All good; Needs BIOS)
 loc 4fe7d7 rak1rig3
-reb 4fe7d7 1
+#reb 4fe7d7 1
 
 #111 - 501cc3 - Rak1rig2 - 11 GPUs (GPU 6 & 2 running hot; 2 down; Needs BIOS)
 loc 501cc3 Rak1rig2
-reb 501cc3 1
+#reb 501cc3 1
 
 #112 - 4fe545 - rak2rig3 - 11 GPUs (GPU 4 running hot; 2 down; Needs BIOS)
 loc 4fe545 rak2rig3
-reb 4fe545 1
+#reb 4fe545 1
 
 #113 - 4fe58d - rak2rig4 - 10 GPUs (3 down; Needs BIOS)
 loc 4fe58d rak2rig4
-reb 4fe58d 1
+#reb 4fe58d 1
 
 #114 - 502848 - rak2rig1 - 11 GPUs   (Very Low Hashrate!!!; 3 down; Needs BIOS)
 loc 502848 rak2rig1
-reb 502848 1
+#reb 502848 1
 
 #115 - 4fe4ab - Rak4top - 10 GPUs (Very Low Hashrate!!!; 3 down; Needs BIOS)
 loc 4fe4ab Rak4top
-reb 4fe4ab 1
+#reb 4fe4ab 1
 
 #117 - 50282e - rak2rig2 - 13 GPUs  (all good; Needs BIOS)
 loc 50282e rak2rig2
-reb 50282e 1
+#reb 50282e 1
 
 #118 - 4fe565 - Rak3top -13 GPUs rx470 (470s; all good; might need BIOS)
 loc 4fe565 Rak3top
-reb 4fe565 1
+#reb 4fe565 1
 
 ##cor 501bob
 ##mem 501bob
