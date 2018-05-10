@@ -18,7 +18,7 @@ flags --cl-global-work 8192 --farm-recheck 250
 
 
 maxgputemp 85
-globalpowertune 3
+globalpowertune 4
 globalfan 100
 autoreboot 8
 
