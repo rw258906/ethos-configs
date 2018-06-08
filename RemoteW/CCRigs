@@ -23,7 +23,7 @@ autoreboot 8
 
 #Rig Info and Pwr Tuning
 
-#104 - 4fe55d - testBen - 13GPUs (all good; Needs BIOS) 
+#??? - 4fe55d - testBen - 13GPUs (all good; Needs BIOS) 
 loc 4fe55d testBen
 #reb 4fe55d 1
 
