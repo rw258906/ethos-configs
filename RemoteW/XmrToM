@@ -20,7 +20,7 @@ autoreboot 8
 pwr 86b539 2 3 2 1 0 3 3 3
 
 #107 - RakMrig1 - 86b4e3 - 7/8 GPUs 
-pwr 86b4e3 3 1 3 3 3 3
+pwr 86b4e3 3 1 3 3 3 3 3 3
 sel 86b4e3 1 2 3 5 6 7
 
 #111 - RakMrig2 - 86b4f1 - 7/8 GPUs - down  
@@ -33,8 +33,8 @@ pwr 86b4e1 0 2 2 1 1 3 3 3
 pwr 86b498 1 2 2 2 3 3 3 3
 
 #115 - RakMrig5 - 86b525 - 6/8 GPUs 
-pwr 86b525 1 1 3 3 3 3 3
-sel 86b539 0 1 2 4 5 6 7
+sel 86b539 0 1 2 4 5 
+pwr 86b525 1 1 0 3 3 3
 
 #116 - BackRack - 86b4e9 - 8/8 GPUs
 pwr 86b4e9 1 3 3 2 1 3 3 3
