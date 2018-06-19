@@ -46,10 +46,16 @@ loc 86b4f1 RakMrig2
 loc 86b4e1 RakMrig3
 loc 86b498 RakMrig4
 loc 86b525 RakMrig5
-
 loc 86b4e9 BackRack
 
+#Cor Clock Speed
 #cor 86b4e3 300 1145 600 1145 300 1145 1145
- 2000 2000 2000 2000 2000 2000 2000 2000
+#Mem Clock Speed
+#mem 86b4e3 2000 2000 2000 2000 2000 2000 2000 2000
+#GPU mV (Core?)
+#vlt 86b4e3 1080 950 ....
+#Select Which Cards Mine
 #sel 86b4e3 1 2 3 4 5 6 7
+#VRAM Voltage
+#vddci 86b4e3 950 950 950 950 950 950
 
