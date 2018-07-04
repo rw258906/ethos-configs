@@ -34,7 +34,7 @@ pwr 86b498 1 2 2 2 3 3 3 3
 
 #115 - RakMrig5 - 86b525 - 6/8 GPUs 
 sel 86b525 0 1 2 4 5 
-pwr 86b525 1 1 3 0 3 3 3
+pwr 86b525 1 1 1 0 3 3 3
 
 #116 - BackRack - 86b4e9 - 8/8 GPUs
 pwr 86b4e9 1 3 3 2 1 3 3 3
