@@ -27,7 +27,7 @@ sel 86b4e3 1 2 3 5 6 7
 pwr 86b4f1 0 2 1 2 0 3 3 3
 
 #113 - RakMrig3 - 86b4e1 - 8/8 GPUs
-pwr 86b4e1 0 2 1 1 3 3 2
+pwr 86b4e1 0 2 1 1 3 3 3 3
 sel 86b4e1 0 1 2 4 5 6 7 
 
 #112 - RakMrig4 86b498 - 8/8 GPUs
