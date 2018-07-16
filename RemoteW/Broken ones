@@ -24,7 +24,7 @@ autoreboot 8
 #Rig Info and Pwr Tuning
 
 #108 - 501b0b - Rak1rig1 - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
-loc 501b0b Where
+loc 501b0b Rak1rig1
 #loc 501b0b Rak1rig1
 
 
