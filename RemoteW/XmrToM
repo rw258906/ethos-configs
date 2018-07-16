@@ -19,27 +19,27 @@ autoreboot 8
 #103 - Test-m - 86b539 - 8/8 GPUs - No backplates
 pwr 86b539 2 3 2 1 0 3 3 3
 
-#107 - RakMrig1 - 86b4e3 - 7/8 GPUs 
-pwr 86b4e3 3 1 1 3 3 3 3 3
-sel 86b4e3 1 2 3 5 6 7
+#108 - RakMrig1 - 86b4e3 - ?/7 GPUs 
+#pwr 86b4e3 3 3 3 3 3 3 3 3
+#sel 86b4e3 1 2 3 5 6 7
 
-#111 - RakMrig2 - 86b4f1 - 7/8 GPUs - down  
-pwr 86b4f1 0 2 1 2 0 3 3 3
+#111 - RakMrig2 - 86b4f1 - ?/5 GPUs - down  
+#pwr 86b4f1 0 2 1 2 0 3 3 3
 
-#113 - RakMrig3 - 86b4e1 - 8/8 GPUs
-pwr 86b4e1 0 2 1 1 3 3 3 3
-sel 86b4e1 1 2 4 5 6 7 
+#113 - RakMrig3 - 86b4e1 - ?/7 GPUs
+#pwr 86b4e1 0 2 1 1 3 3 3 3
+#sel 86b4e1 1 2 4 5 6 7 
 
-#112 - RakMrig4 86b498 - 7/8 GPUs
-pwr 86b498 1 1 3 3 3 3
-sel 86b498 0 1 3 4 5 6
+#112 - RakMrig4 86b498 - ?/5 GPUs
+#pwr 86b498 1 1 3 3 3 3
+#sel 86b498 0 1 3 4 5 6
 
-#115 - RakMrig5 - 86b525 - 6/8 GPUs 
-sel 86b525 0 1 2 3 4 5 
-pwr 86b525 0 1 1 0 3 3 
+#115 - RakMrig5 - 86b525 - ?/7 GPUs 
+#sel 86b525 0 1 2 3 4 5 
+#pwr 86b525 0 1 1 0 3 3 
 
 #116 - BackRack - 86b4e9 - 8/8 GPUs
-pwr 86b4e9 1 3 3 2 1 3 3 3
+#pwr 86b4e9 1 3 3 2 1 3 3 3
 
 loc 86b539 test-m
 loc 86b4e3 RakMrig1
