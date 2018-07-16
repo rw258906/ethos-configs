@@ -28,7 +28,7 @@ loc 4fe55d testBen
 #reb 4fe55d 1
 
 #108 - 501b0b - Rak1rig1 - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
-loc 501b0b Rak1rig1
+loc 501b0b Where
 #reb 501b0b 1
 
 #106 - 4fe7d7 - rak1rig3 - c12/13 GPUs  (was pointed at wrong remote.conf, has new BIOS)
