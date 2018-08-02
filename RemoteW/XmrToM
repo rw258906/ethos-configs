@@ -17,6 +17,7 @@ autoreboot 8
 
 #103 - Test-m - 86b539 - 8/8 GPUs - No backplates
 pwr 86b539 2 3 2 1 0 3 0 3
+sel 86b539 0 1 2 3 4 5 7 8
 
 #108 - RakMrig1 - 86b4e3 - ?/7 GPUs 
 pwr 86b4e3 0 0 0 3 3 3 3 3
