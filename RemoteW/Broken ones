@@ -20,7 +20,7 @@ custompanel cavernCRYPTO
 
 #Settings
 maxgputemp 85
-#globalpowertune 3
+globalpowertune 3
 globalfan 100
 autoreboot 8
 
