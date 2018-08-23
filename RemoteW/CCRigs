@@ -1,11 +1,11 @@
 #Pools
 
 #COD Graft
-stratumproxy enabled
-proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD
-proxypool1 grft.pool.codpool.com:7774
-proxypool2 grft.pool.codpool.com:5554
-flags --cl-global-work 8192 --farm-recheck 250
+#stratumproxy enabled
+#proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD
+#proxypool1 grft.pool.codpool.com:7774
+#proxypool2 grft.pool.codpool.com:5554
+#flags --cl-global-work 8192 --farm-recheck 250
 
 #ETH-Pool
 #stratumproxy enabled
@@ -15,11 +15,11 @@ flags --cl-global-work 8192 --farm-recheck 250
 #flags --cl-global-work 8192 --farm-recheck 250
 
 #Nano-XMR
-#stratumproxy enabled
-#proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
-#proxypool1 xmr-us-east1.nanopool.org:14444
-#proxypool2 xmr-us-west1.nanopool.org:14444
-#flags --cl-global-work 8192 --farm-recheck 250
+stratumproxy enabled
+proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
+proxypool1 xmr-us-east1.nanopool.org:14444
+proxypool2 xmr-us-west1.nanopool.org:14444
+flags --cl-global-work 8192 --farm-recheck 250
 
 #Miner
 globalminer claymore-xmr
