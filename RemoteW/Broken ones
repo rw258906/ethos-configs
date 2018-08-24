@@ -1,7 +1,7 @@
 #Pool
 stratumproxy enabled
 #proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
-proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD+200000
+proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD
 proxypool1 grft.pool.codpool.com:7774
 proxypool2 grft.pool.codpool.com:5554
 flags --cl-global-work 8192 --farm-recheck 250
