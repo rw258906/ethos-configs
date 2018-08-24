@@ -74,6 +74,7 @@ loc 50282e rak2rig2
 #110 - 4fe565 - Rak3top -c13/13 GPUs rx470 (470s; all good; might need BIOS)
 loc 4fe565 Rak3top
 #reb 4fe565 1
+flg 4fe565-xpsw 
 
 ##cor 501bob
 ##mem 501bob
