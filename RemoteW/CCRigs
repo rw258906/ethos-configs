@@ -2,7 +2,7 @@
 
 #COD Graft
 stratumproxy enabled
-proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD+200000
+proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD
 proxypool1 grft.pool.codpool.com:7774 
 proxypool2 grft.pool.codpool.com:5554 
 flags --cl-global-work 8192 --farm-recheck 250 
