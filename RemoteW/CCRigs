@@ -59,6 +59,8 @@ loc 4fe545 rak2rig3
 loc 4fe58d rak2rig4
 #reb 4fe58d 1
 
+#DOWN
+
 #112 - 502848 - rak2rig1 - 11/13 GPUs   (27mh/gpu; Has New BIOS)
 loc 502848 rak2rig1
 #reb 502848 1
@@ -75,6 +77,8 @@ loc 50282e rak2rig2
 loc 4fe565 Rak3top
 #reb 4fe565 1
 #flg 4fe565-xpsw 
+
+#/DOWN
 
 ##cor 501bob
 ##mem 501bob
