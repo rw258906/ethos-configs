@@ -40,10 +40,6 @@ autoreboot 8
 loc 4fe545 rak2rig3
 #reb 4fe545 1
 
-#103 - 501b0b - Rak1rig1 - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
-#loc 501b0b Where
-#loc 501b0b Rak1rig1
-
 #107 - 501cc3 - Rak1rig2 - c11/13 GPUs (GPU 6 & 2 running hot; 2 down; Needs BIOS)
 loc 501cc3 Rak1rig2
 #reb 501cc3 1
