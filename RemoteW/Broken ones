@@ -32,7 +32,7 @@ globalfan 100
 autoreboot 8
 
 #Rig Info and Pwr Tuning
-#108 - 501b0b - R1g1Test - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
+#103 - 501b0b - R1g1Test - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
 loc 501b0b R1g1Test
 
 #Old
