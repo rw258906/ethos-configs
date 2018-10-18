@@ -12,11 +12,12 @@ proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMo
 #proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
 proxypool1 xmr-us-east1.nanopool.org:14444
 proxypool2 xmr-us-west1.nanopool.org:14444
-flags --cl-global-work 8192 --farm-recheck 250
+#flags --cl-global-work 8192 --farm-recheck 250
 
 #Miner
-globalminer claymore-xmr
-claymore-xmr=flags -pow8 1
+globalminer xmr-stak
+xmr-stak=flags --currency cryptonight_v8 --noNVIDIA
+
 custompanel MRigs
 
 #ETH Pool
