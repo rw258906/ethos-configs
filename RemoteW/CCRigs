@@ -23,7 +23,7 @@ flags --cl-global-work 8192 --farm-recheck 250
 
 #Miner
 globalminer claymore-xmr
-claymore-xmr=flags -pow7 1
+claymore-xmr=flags -pow8 1
 custompanel cavernCRYPTO
 
 #Settings
