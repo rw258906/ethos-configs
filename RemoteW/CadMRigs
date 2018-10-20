@@ -29,9 +29,13 @@ custompanel MRigs
 
 #Settings
 maxgputemp 85
-globalpowertune 3
+#globalpowertune 3
 globalfan 100
 autoreboot 8
+globalvolt 900
+globalcor 1240
+
+
 
 #Rig Info and Pwr Tuning
 #103 - 501b0b - R1g1Test - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
