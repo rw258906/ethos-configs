@@ -37,11 +37,15 @@ globalcor 1240
 
 
 
-#Rig Info and Pwr Tuning
-#103 - 501b0b - R1g1Test - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
-loc 501b0b R1g1Test
-
-#Old
-#loc 501b0b Rak1rig1
-
+#Rig Info 
+loc	ad89fc	181
+loc	ad8837	173
+loc	ad883a	179
+loc	af7bdc	183
+loc	af7be1	184
+loc	af7be4	182
+loc	af7bfe	176
+loc	ad89e7	177
+loc	ad8840	178
+loc	ae1e58	175
 
