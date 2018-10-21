@@ -35,7 +35,7 @@ autoreboot 8
 globalvolt 900
 globalcor 1240
 
-mem ad89fc 1750 1750 1750 1750 1750 1750 1750 2000 
+mem ad89fc 1750 1750 1750 1750 1750 1750 1750 2500 
 
 
 #Rig Info 
