@@ -42,17 +42,17 @@ Globalmem 2000
 #Rig Info 
 loc ad89fc 181
 loc ad8837 173
-sel ad8837 1 2 3 4 5 6 7 
+#sel ad8837 1 2 3 4 5 6 7 
 loc ad883a 179
-sel ad883a 1 2 3 4 5 6 7
+#sel ad883a 1 2 3 4 5 6 7
 loc af7bdc 183
 loc af7be1 184
 loc af7be4 182
-sel af7be4 1 2 3 4 5 6 7 
+#sel af7be4 1 2 3 4 5 6 7 
 loc af7bfe 176
-sel af7bfe 1 2 3 4 5 6 7 
+#sel af7bfe 1 2 3 4 5 6 7 
 loc ad89e7 177
 loc ad8840 178
-sel ad8840 1 2 3 4 5 6 7
+#sel ad8840 1 2 3 4 5 6 7
 loc ae1e58 175
 
