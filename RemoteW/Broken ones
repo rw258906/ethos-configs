@@ -8,15 +8,17 @@
 
 #Nano-XMR
 stratumproxy enabled
-proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
+proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
+#proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
 proxypool1 xmr-us-east1.nanopool.org:14444
 proxypool2 xmr-us-west1.nanopool.org:14444
-flags --cl-global-work 8192 --farm-recheck 250
+#flags --cl-global-work 8192 --farm-recheck 250
 
 #Miner
-globalminer claymore-xmr
-claymore-xmr=flags -pow7 1
-custompanel cavernCRYPTO
+globalminer xmr-stak
+xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
+
+custompanel MRigs
 
 #ETH Pool
 #stratumproxy enabled
@@ -27,16 +29,20 @@ custompanel cavernCRYPTO
 
 #Settings
 maxgputemp 85
-globalpowertune 3
+#globalpowertune 3
 globalfan 100
 autoreboot 8
+#globalvolt 900
+#globalcor 1240
+Globalmem 2000
 
-#Rig Info and Pwr Tuning
-#103 - 501b0b - R1g1Test - c11/13 GPUs (Was pointed at wrong remote.conf; Has New BIOS)
-loc 501b0b R1g1Test
+#mem ad89fc 1750 1750 1750 1750 1750 1750 1750 2500 
 
-#Old
-#loc 501b0b Rak1rig1
+loc af7be1 184
+cor af7be1 800 1240 1240 1240 1240 1240 1240 1240
+vlt af7be1 850 900 900 900 900 900 900 900
+
+#Rig Info 
 
 
 
