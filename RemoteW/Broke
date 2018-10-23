@@ -33,10 +33,10 @@ maxgputemp 85
 globalfan 100
 autoreboot 8
 globalvolt 900
-globalcor 1200
+#globalcor 1200
 Globalmem 2000
 
-#mem ad89fc 1750 1750 1750 1750 1750 1750 1750 2500 
+cor af7be4 900 900 1200 1200 1200 1200 1200 1200   
 
 loc af7be1 184
 #cor af7be1 800 1240 1240 1240 1240 1240 1240 1240
