@@ -44,8 +44,8 @@ maxgputemp 85
 #globalpowertune 3
 globalfan 100
 autoreboot 8
-globalvolt 900
-globalcor 1200
+globalvolt 950
+globalcor 1150
 Globalmem 2000
 
 #mem ad89fc 1750 1750 1750 1750 1750 1750 1750 2500 
