@@ -29,18 +29,21 @@ custompanel MRigs
 #flags --cl-global-work 8192 --farm-recheck 250
 
 #Settings
+safevolt disabled
 maxgputemp 85
 #globalpowertune 3
 globalfan 100
 autoreboot 8
-globalvolt 950
+#globalvolt 950
 #globalcor 1200
 Globalmem 2000
 
 cor af7be4 900 900 1200 1200 1200 1200 1200 1200   
+vlt af7be4 950 950 950 950 900 900 1000 1000
+vddci af7be4 990 900 990 900 990 900 990 900
 
 loc af7be1 184
-#cor af7be1 800 1240 1240 1240 1240 1240 1240 1240
-#vlt af7be1 850 900 900 900 900 900 900 900
+cor af7be1 900 900 1200 1200 1200 1200 1200 1200
+vlt af7be1 900 900 950 950 950 950 950 950
 
 #Rig Info 
