@@ -3,8 +3,7 @@
 stratumproxy enabled
 proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
 proxypool1 xmr.pool.gntl.co.uk:9999
-#proxypool1 vegas-backup.xmrpool.net:7778
-proxypool2 vegas-backup.xmrpool.net:5556
+proxypool2 xmr.pool.gntl.co.uk:1111
 #flags --cl-global-work 8192 --farm-recheck 250
 
 #Miner
