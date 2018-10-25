@@ -1,4 +1,4 @@
-#Pool
+#GRAFT
 #stratumproxy disabled
 #proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
 #proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD
@@ -6,38 +6,28 @@
 #proxypool2 stratum+tcp://grft.pool.codpool.com:5554
 #flags --cl-global-work 8192 --farm-recheck 250
 
-#Nano-XMR
+#XMR
 stratumproxy enabled
 proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
 #proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
-proxypool1 xmr-us-east1.nanopool.org:14444
+proxypool1 vegas-backup.xmrpool.net:7778
 proxypool2 xmr-us-west1.nanopool.org:14444
 #flags --cl-global-work 8192 --farm-recheck 250
 
-#RigNaming
-#proxywallet ad89fc 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.181
-#proxywallet ad8837 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.173
-#proxywallet ad883a 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.179
-#proxywallet af7bdc 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.183
-#proxywallet af7be1 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.184
-#proxywallet af7be4 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.182
-#proxywallet af7bfe 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.176
-#proxywallet ad89e7 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.177
-#proxywallet ad8840 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.178
-#proxywallet ae1e58 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS.175
+
+#ETH
+#stratumproxy enabled
+#proxywallet 0x0c1dcf6ba81ed7e14ef58d497594e08438a2f6f4
+#proxypool1 us1.ethpool.org:3333
+#proxypool2 us2.ethpool.org:3333
+#flags --cl-global-work 8192 --farm-recheck 250
+
 
 #Miner
 globalminer xmr-stak
 xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
 
 custompanel MRigs
-
-#ETH Pool
-#stratumproxy enabled
-#proxywallet 0x0c1dcf6ba81ed7e14ef58d497594e08438a2f6f4
-#proxypool1 us1.ethpool.org:3333
-#proxypool2 us2.ethpool.org:3333
-#flags --cl-global-work 8192 --farm-recheck 250
 
 #Settings
 maxgputemp 85
