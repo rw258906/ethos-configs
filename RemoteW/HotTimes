@@ -1,0 +1,30 @@
+
+#XMR
+stratumproxy enabled
+proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
+proxypool1 vegas-backup.xmrpool.net:7778
+proxypool2 vegas-backup.xmrpool.net:5556
+#flags --cl-global-work 8192 --farm-recheck 250
+
+#Miner
+globalminer xmr-stak
+#xmr-stak=proxywallet WalletAddress.183
+xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
+
+#Settings
+safevolt disabled
+maxgputemp 85
+#globalpowertune 3
+globalfan 100
+autoreboot 8
+#globalvolt 950
+#globalcor 1200
+Globalmem 2000
+
+cor af7be4 900 900 1200 1200 1200 1200 1200 1200   
+vlt af7be4 950 950 950 950 900 900 1000 1000
+
+
+loc af7be1 184
+cor af7be1 850 850 1100 1200 1200 1200 1200 1200
+vlt af7be1 900 900 900 900 950 950 950 950
