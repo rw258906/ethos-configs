@@ -10,8 +10,8 @@
 stratumproxy enabled
 proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
 #proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
-proxypool1 vegas-backup.xmrpool.net:7778
-proxypool2 xmr-us-west1.nanopool.org:14444
+proxypool1 xmr.pool.gntl.co.uk:9999
+proxypool2 xmr.pool.gntl.co.uk:1111
 #flags --cl-global-work 8192 --farm-recheck 250
 
 
