@@ -2,8 +2,8 @@
 #XMR
 stratumproxy enabled
 proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
-proxypool1 vegas-backup.xmrpool.net:7778
-proxypool2 vegas-backup.xmrpool.net:5556
+proxypool1 xmr-us-east1.nanopool.org:14433
+proxypool2 xmr-us-east1.nanopool.org:14444
 #flags --cl-global-work 8192 --farm-recheck 250
 
 #Miner
