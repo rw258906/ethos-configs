@@ -1,38 +1,25 @@
-#Pools
 
-#COD Graft
-#stratumproxy enabled
-#proxywallet G9cVn3bzoCGPEwurjnXKa6ejL8c1Bb2skSgYgeE4GBYBcSvQUrviHyjUBFXXGYfB5kPzbjUdANq4ajdKpiwd91TNB6oLTMD
-#proxypool1 stratum+tcp://grft.pool.codpool.com:7774
-#proxypool2 stratum+tcp://grft.pool.codpool.com:5554
-#flags --cl-global-work 8192 --farm-recheck 250 
-
-#ETH-Pool
-#stratumproxy enabled
-#proxywallet 0x0c1dcf6ba81ed7e14ef58d497594e08438a2f6f4
-#proxypool1 us1.ethpool.org:3333
-#proxypool2 us2.ethpool.org:3333
+#XMR
+stratumproxy enabled
+proxywallet 45oDtedKJvr9dJAy2scjKvfCPPqxRe6Dm45oD8zpVmdSCMiMaRHdi1qYnhGCJAifiFMopWqRhgvNUdmc4e2EWaGk7uGtqxS
+proxypool1 xmr-us-east1.nanopool.org:14433
+proxypool2 xmr-us-east1.nanopool.org:14444
 #flags --cl-global-work 8192 --farm-recheck 250
 
-#Nano-XMR
-stratumproxy enabled
-proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
-proxypool1 xmr-us-east1.nanopool.org:14444
-proxypool2 xmr-us-west1.nanopool.org:14444
-flags --cl-global-work 8192 --farm-recheck 250
-
 #Miner
-globalminer claymore-xmr
-claymore-xmr=flags -pow8 1
-custompanel cavernCRYPTO
+globalminer xmr-stak
+#xmr-stak=proxywallet WalletAddress.183
+xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
 
 #Settings
+safevolt disabled
 maxgputemp 85
-globalpowertune 3
+#globalpowertune 3
 globalfan 100
 autoreboot 8
-
-#Rig Info and Pwr Tuning
+#globalvolt 950
+#globalcor 1200
+Globalmem 2000
 
 #UP
 
@@ -54,28 +41,28 @@ loc 4fe7d7 rak1rig3
 #DOWN
 
 #??? - 4fe55d - testBen - 13GPUs (all good; Needs BIOS) 
-loc 4fe55d testBen
+#loc 4fe55d testBen
 #reb 4fe55d 1
 
 
 #??? - 4fe58d - rak2rig4 - c11/13 GPUs (27mh/gpu; Has New BIOS)
-loc 4fe58d rak2rig4
+#loc 4fe58d rak2rig4
 #reb 4fe58d 1
 
 #112 - 502848 - rak2rig1 - 11/13 GPUs   (27mh/gpu; Has New BIOS)
-loc 502848 rak2rig1
+#loc 502848 rak2rig1
 #reb 502848 1
 
 #??? - 4fe4ab - Rak4top - 10/13 GPUs (27mh/gpu; Has New BIOS)
-loc 4fe4ab Rak4top
+#loc 4fe4ab Rak4top
 #reb 4fe4ab 1
 
 #117 - 50282e - rak2rig2 - 13/13 GPUs  (27mh/gpu; Has New BIOS)
-loc 50282e rak2rig2
+#loc 50282e rak2rig2
 #reb 50282e 1
 
 #110 - 4fe565 - Rak3top -c13/13 GPUs rx470 (470s; all good; might need BIOS)
-loc 4fe565 Rak3top
+#loc 4fe565 Rak3top
 #reb 4fe565 1
 #flg 4fe565-xpsw 
 
