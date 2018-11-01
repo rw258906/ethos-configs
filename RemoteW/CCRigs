@@ -24,16 +24,16 @@ Globalmem 2000
 #UP
 
 #116 - 4fe545 - rak2rig3 - 12/13 GPUs (all F***ed; Has New BIOS)
-loc 4fe545 rak2rig3
+#loc 4fe545 rak2rig3
 #reb 4fe545 1
 
 #107 - 501cc3 - Rak1rig2 - c11/13 GPUs (GPU 6 & 2 running hot; 2 down; Needs BIOS)
-loc 501cc3 Rak1rig2
+#loc 501cc3 Rak1rig2
 #reb 501cc3 1
 
 
 #109 - 4fe7d7 - rak1rig3 - c12/13 GPUs  (was pointed at wrong remote.conf, has new BIOS)
-loc 4fe7d7 rak1rig3
+#loc 4fe7d7 rak1rig3
 #reb 4fe7d7 1
 #flg 4fe7d7 -xpsw 
 
