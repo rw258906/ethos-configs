@@ -8,6 +8,7 @@ flags --cl-global-work 8192 --farm-recheck 250
 
 loc 50282e Joey580
 loc 4fe565 Joey470
+loc 4fe55d TestBen
 
 #Cor Clock Speed
 cor 50282e 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150
