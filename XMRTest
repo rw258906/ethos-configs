@@ -2,9 +2,13 @@
 stratumproxy enabled
 proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
 proxypool1 xmr-us-east1.nanopool.org:14433
-proxypool2 xmr-us-west1.nanopool.org:14433
+proxypool2 xmr-us-east1.nanopool.org:14444
+#flags --cl-global-work 8192 --farm-recheck 250
+
+#Miner
 globalminer xmr-stak
-flags --cl-global-work 8192 --farm-recheck 250
+#xmr-stak=proxywallet WalletAddress.183
+xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
 
 loc 50282e Joey580
 loc 4fe565 Joey470
