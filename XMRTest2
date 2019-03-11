@@ -1,7 +1,7 @@
 
 stratumproxy enabled
 proxywallet 4AndTK1UsZiemwPzYWim8TWCjnY2TyGHhhaLtriXF4dSiHh3viCAQj9Jz9htbYnBVqd44zE3eEcttFVfc2GNXE2jFC9ZdAh
-proxypool1 xmr-us-east1.nanopool.org:14433
+proxypool1 pool.supportxmr.com:7777
 proxypool2 xmr-us-east1.nanopool.org:14444
 #flags --cl-global-work 8192 --farm-recheck 250
 
