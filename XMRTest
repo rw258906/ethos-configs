@@ -8,7 +8,7 @@ proxypool2 xmr-us-east1.nanopool.org:14444
 #Miner
 globalminer xmr-stak
 #xmr-stak=proxywallet WalletAddress.183
-xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v8 --noNVIDIA
+xmr-stak=flags --amd /home/ethos/xmr-stak-amd.stub.conf --currency cryptonight_v9 --noNVIDIA
 
 loc 50282e Joey580
 loc 4fe565 Joey470
