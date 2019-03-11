@@ -1,0 +1,26 @@
+
+stratumproxy enabled
+proxywallet 0x6993b4d9576A9Ca35CBA1F68a5BA733AC54B5cF1
+proxypool1 eth-us-east1.nanopool.org:9999
+proxypool2 eth-us-west1.nanopool.org:9999
+globalminer claymore
+flags --cl-global-work 8192 --farm-recheck 250
+
+loc 50282e Joey580
+loc 4fe565 Joey470
+loc 4fe55d TestBen
+
+#Cor Clock Speed
+cor 50282e 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150 1150
+cor 4fe565 1100 1100 1100 1100 1100 1100 1100 1100 1100 1100 1100 1100 1100
+#Mem Clock Speed
+mem 50282e 2150 2150 2150 2150 2150 2150 2150 2100 2150 2150 2150 2150 2150 
+mem 4fe565 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000
+#GPU mV (Core?)
+vlt 50282e 900 900 900 900 900 900 900 900 900 900 900 900 900
+vlt 4fe565 900 900 900 900 900 900 900 900 900 900 900 900 900
+#Select Which Cards Mine
+#sel 86b4e3 1 2 3 4 5 6 7
+#VRAM Voltage
+#vddci 86b4e3 950 950 950 950 950 950
+#globalpowertune 3
